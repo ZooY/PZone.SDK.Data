@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZone SDK Data", "PZone SDK Data\PZone SDK Data.csproj", "{431FC7F2-2547-4CBE-B083-26563793C046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZone SDK Data Tests", "PZone SDK Data Tests\PZone SDK Data Tests.csproj", "{15AEEC5A-A0DB-409F-B42C-831B64614F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{431FC7F2-2547-4CBE-B083-26563793C046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431FC7F2-2547-4CBE-B083-26563793C046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431FC7F2-2547-4CBE-B083-26563793C046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431FC7F2-2547-4CBE-B083-26563793C046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AEEC5A-A0DB-409F-B42C-831B64614F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AEEC5A-A0DB-409F-B42C-831B64614F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AEEC5A-A0DB-409F-B42C-831B64614F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AEEC5A-A0DB-409F-B42C-831B64614F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
