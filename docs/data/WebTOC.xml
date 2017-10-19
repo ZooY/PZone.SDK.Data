@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="1e31b1c0-d7b3-4446-a1b3-01aeb9c4d24f" Title="Пространства имен" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="6ad381e7-9118-4d73-bcd6-ab34ca0cb422" Title="PZone.Data.Models.ContactDetails" Url="html/N_PZone_Data_Models_ContactDetails.htm">
+      <HelpTOCNode Id="6152aab2-2e93-4bad-84ea-be354ebd6b2f" Title="Address - класс" Url="html/T_PZone_Data_Models_ContactDetails_Address.htm">
+        <HelpTOCNode Title="Address - конструктор" Url="html/M_PZone_Data_Models_ContactDetails_Address__ctor.htm" />
+        <HelpTOCNode Id="0f880726-74dd-44f1-8d40-2ea0b161a1a9" Title="Address - свойства" Url="html/Properties_T_PZone_Data_Models_ContactDetails_Address.htm">
+          <HelpTOCNode Title="Area - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Area.htm" />
+          <HelpTOCNode Title="Block - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Block.htm" />
+          <HelpTOCNode Title="City - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_City.htm" />
+          <HelpTOCNode Title="Country - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Country.htm" />
+          <HelpTOCNode Title="Flat - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Flat.htm" />
+          <HelpTOCNode Title="House - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_House.htm" />
+          <HelpTOCNode Title="PostalCode - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_PostalCode.htm" />
+          <HelpTOCNode Title="Region - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Region.htm" />
+          <HelpTOCNode Title="Settlement - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Settlement.htm" />
+          <HelpTOCNode Title="Street - свойство" Url="html/P_PZone_Data_Models_ContactDetails_Address_Street.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Address - методы" Url="html/Methods_T_PZone_Data_Models_ContactDetails_Address.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0263d8be-4ab8-488d-9d1d-c4fa283b2332" Title="PZone.Data.Validation" Url="html/N_PZone_Data_Validation.htm">
+      <HelpTOCNode Id="71fe0025-93cf-4ce8-a49a-a4ad2692fc08" Title="RussianPersonalDataValidation - класс" Url="html/T_PZone_Data_Validation_RussianPersonalDataValidation.htm">
+        <HelpTOCNode Id="2822648b-4894-4e88-9b69-44ea1dab3397" Title="RussianPersonalDataValidation - методы" Url="html/Methods_T_PZone_Data_Validation_RussianPersonalDataValidation.htm">
+          <HelpTOCNode Title="FirstName - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_FirstName.htm" />
+          <HelpTOCNode Title="Inn - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_Inn.htm" />
+          <HelpTOCNode Title="LastName - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_LastName.htm" />
+          <HelpTOCNode Title="MiddleName - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_MiddleName.htm" />
+          <HelpTOCNode Id="53127523-1be2-4301-8d0a-f507b71a523e" Title="PassportNumber - метод" Url="html/Overload_PZone_Data_Validation_RussianPersonalDataValidation_PassportNumber.htm">
+            <HelpTOCNode Title="PassportNumber(String) - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_PassportNumber.htm" />
+            <HelpTOCNode Title="PassportNumber(String, String) - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_PassportNumber_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Snils - метод" Url="html/M_PZone_Data_Validation_RussianPersonalDataValidation_Snils.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="1110808b-cc5c-40ee-95b7-05494f9f0235" Title="ValidationResult - класс" Url="html/T_PZone_Data_Validation_ValidationResult.htm">
+        <HelpTOCNode Id="23701edc-bbb6-4c65-821b-aa82c0ebca42" Title="ValidationResult - конструктор" Url="html/Overload_PZone_Data_Validation_ValidationResult__ctor.htm">
+          <HelpTOCNode Title="ValidationResult(ValidationResultType) - конструктор" Url="html/M_PZone_Data_Validation_ValidationResult__ctor.htm" />
+          <HelpTOCNode Title="ValidationResult(ValidationResultType, String) - конструктор" Url="html/M_PZone_Data_Validation_ValidationResult__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c4cb715c-10d9-4b51-b7b1-c9e1789b796e" Title="ValidationResult - свойства" Url="html/Properties_T_PZone_Data_Validation_ValidationResult.htm">
+          <HelpTOCNode Title="Reason - свойство" Url="html/P_PZone_Data_Validation_ValidationResult_Reason.htm" />
+          <HelpTOCNode Title="Result - свойство" Url="html/P_PZone_Data_Validation_ValidationResult_Result.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ValidationResult - методы" Url="html/Methods_T_PZone_Data_Validation_ValidationResult.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ValidationResultType - перечисление" Url="html/T_PZone_Data_Validation_ValidationResultType.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
