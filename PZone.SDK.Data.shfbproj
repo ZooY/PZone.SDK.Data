@@ -26,7 +26,8 @@
     <CleanIntermediates>True</CleanIntermediates>
     <DocumentationSources>
       <DocumentationSource sourceFile="Source\PZone SDK Data\bin\Release\PZone.Data.xml" />
-<DocumentationSource sourceFile="Source\PZone SDK Data\bin\Release\PZone.Data.dll" /></DocumentationSources>
+      <DocumentationSource sourceFile="Source\PZone SDK Data\bin\Release\PZone.Data.dll" />
+    </DocumentationSources>
     <HelpFileVersion>1.0.5</HelpFileVersion>
     <MaximumGroupParts>2</MaximumGroupParts>
     <NamespaceGrouping>True</NamespaceGrouping>
@@ -53,13 +54,14 @@
     <WarnOnMissingSourceContext>False</WarnOnMissingSourceContext>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="PZone (Group)" isGroup="True" isDocumented="True">Common components for C# application developing.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone" isDocumented="True">Корневое пространство имен.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True">Общие типы исключений.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Formatting" isDocumented="True">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Helpers" isDocumented="True">Хелперы для работы с различными типами данных.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Web.Mvc" isDocumented="True">Components to MVC5 development.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Data.Models.ContactDetails" isDocumented="True">Пространство имен моделей контактных данных персоны.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="PZone.Data.Validation" isDocumented="True">Пространство имен компонентов валидации данных.</NamespaceSummaryItem></NamespaceSummaries>
+      <NamespaceSummaryItem name="PZone" isDocumented="True">Корневое пространство имен.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Exceptions" isDocumented="True">Общие типы исключений.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Formatting" isDocumented="True">Инструменты форматирования данных различных типов.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Helpers" isDocumented="True">Хелперы для работы с различными типами данных.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Web.Mvc" isDocumented="True">Components to MVC5 development.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Data.Models.ContactDetails" isDocumented="True">Пространство имен моделей контактных данных персоны.</NamespaceSummaryItem>
+      <NamespaceSummaryItem name="PZone.Data.Validation" isDocumented="True">Пространство имен компонентов валидации данных.</NamespaceSummaryItem>
+    </NamespaceSummaries>
     <RootNamespaceTitle>
     </RootNamespaceTitle>
   </PropertyGroup>
