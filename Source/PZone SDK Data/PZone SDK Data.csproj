@@ -49,6 +49,8 @@
       <DependentUpon>Error.resx</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactDetails\Address.cs" />
+    <Compile Include="Models\Gender.cs" />
+    <Compile Include="Models\GenderExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validation\ValidationResult.cs" />
     <Compile Include="Validation\RussianDocumentValidation.cs" />
