@@ -38,6 +38,7 @@
     <AssemblyOriginatorKeyFile>Sign.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Comparisons\StringComparisons.cs" />
     <Compile Include="Localization\Error.en.Designer.cs">
       <DependentUpon>Error.en.resx</DependentUpon>
       <AutoGen>True</AutoGen>
