@@ -35,6 +35,9 @@ namespace PZone.Data.Tests.Comparisons
             Assert.AreEqual(0.83, Math.Round(actual, 2));
             actual = StringComparisons.JaroWinklerDistance("Ёжик", "Ежик", new StringComparisonSettings { CaseSensitive = true });
             Assert.AreEqual(1, Math.Round(actual, 2));
+
+            actual = StringComparisons.JaroWinklerDistance("Ёжёк", "Ежек", new StringComparisonSettings { CaseSensitive = true });
+            Assert.AreEqual(1, Math.Round(actual, 2));
         }
     }
 }
