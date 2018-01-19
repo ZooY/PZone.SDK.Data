@@ -165,7 +165,7 @@ namespace PZone.Data.Validation
             if (string.IsNullOrWhiteSpace(name))
                 return new ValidationResult(ValidationResultType.Empty, emptyError);
             // Проверка на допустимые символы
-            if (new Regex(@"[\da-z]", RegexOptions.IgnoreCase).IsMatch(name))
+            if (!new Regex(@"^[а-яё]+([\- \`\'][а-яё]+)*$", RegexOptions.IgnoreCase).IsMatch(name))
                 return new ValidationResult(ValidationResultType.UnacceptableCharacters, charactersError);
 
             return new ValidationResult(ValidationResultType.Success);

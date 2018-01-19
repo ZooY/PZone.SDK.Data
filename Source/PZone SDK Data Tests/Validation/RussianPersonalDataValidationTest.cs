@@ -32,5 +32,14 @@ namespace PZone.Data.Tests.Validation
             Assert.AreEqual(ValidationResultType.IncorrectValue, actual.Result);
             Assert.AreEqual("Некорректный СНИЛС.", actual.Reason);
         }
+
+
+
+        [TestMethod]
+        public void LastNameValue()
+        {
+            var actual = RussianPersonalDataValidation.LastName("Гарсия-Гонсалес");
+            Assert.AreEqual(ValidationResultType.Success, actual.Result);
+        }
     }
 }

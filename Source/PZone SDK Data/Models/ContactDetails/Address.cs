@@ -1,58 +1,39 @@
 ﻿namespace PZone.Data.Models.ContactDetails
 {
-    /// <summary>
-    /// Адресная информация.
-    /// </summary>
-    public class Address
+    /// <inheritdoc />
+    public class Address : IAddress
     {
-        /// <summary>
-        /// Почтовый индекс.
-        /// </summary>
+        /// <inheritdoc />
+        public string Id { get; set; }
+
+        /// <inheritdoc />
         public string PostalCode { get; set; }
 
-        /// <summary>
-        /// Страна.
-        /// </summary>
+        /// <inheritdoc />
         public string Country { get; set; }
 
-        /// <summary>
-        /// Регион.
-        /// </summary>
+        /// <inheritdoc />
         public string Region { get; set; }
 
-        /// <summary>
-        /// Район.
-        /// </summary>
+        /// <inheritdoc />
         public string Area { get; set; }
 
-        /// <summary>
-        /// Город.
-        /// </summary>
+        /// <inheritdoc />
         public string City { get; set; }
 
-        /// <summary>
-        /// Населенный пункт.
-        /// </summary>
+        /// <inheritdoc />
         public string Settlement { get; set; }
 
-        /// <summary>
-        /// Улица.
-        /// </summary>
+        /// <inheritdoc />
         public string Street { get; set; }
 
-        /// <summary>
-        /// Дом.
-        /// </summary>
+        /// <inheritdoc />
         public string House { get; set; }
 
-        /// <summary>
-        /// Строение.
-        /// </summary>
+        /// <inheritdoc />
         public string Block { get; set; }
 
-        /// <summary>
-        /// Квартира.
-        /// </summary>
+        /// <inheritdoc />
         public string Flat { get; set; }
     }
 }
