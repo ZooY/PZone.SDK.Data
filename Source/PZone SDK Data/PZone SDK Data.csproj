@@ -41,6 +41,14 @@
     <Compile Include="Comparisons\IStringComparisonSettings.cs" />
     <Compile Include="Comparisons\StringComparisons.cs" />
     <Compile Include="Comparisons\StringComparisonSettings.cs" />
+    <Compile Include="Currencies.cs" />
+    <Compile Include="CurrencyInfo.cs" />
+    <Compile Include="Formatting\AmountInWords.cs" />
+    <Compile Include="Formatting\AmountInWordsOptions.cs" />
+    <Compile Include="Formatting\StringCropOptions.cs" />
+    <Compile Include="Formatting\StringFormatting.cs" />
+    <Compile Include="Helpers\NumberHelper.cs" />
+    <Compile Include="Helpers\NumberSplitOptions.cs" />
     <Compile Include="Localization\Error.en.Designer.cs">
       <DependentUpon>Error.en.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -61,6 +69,7 @@
     <Compile Include="Validation\ValidationResultType.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
